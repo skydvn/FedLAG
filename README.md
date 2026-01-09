@@ -1,6 +1,6 @@
 # Official Implementation  
 **Towards Layer-wise Personalized Federated Learning: Adaptive Layer Disentanglement via Conflicting Gradients**  
-*Accepted in IEEE Transactions on Networking*
+*Accepted in IEEE Transactions on Networking, Jan. 2026*
 
 <p align="center">
   <img src="imgs/DGA.png" width="90%">
