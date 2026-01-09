@@ -1,6 +1,15 @@
-# Official Implementation of Which layers should undergo personalization in Federated Learning?
+# Official Implementation  
+**Towards Layer-wise Personalized Federated Learning: Adaptive Layer Disentanglement via Conflicting Gradients**  
+*Accepted in IEEE Transactions on Networking*
 
-![alt text](https://github.com/khanhkhanhlele/FL_recon/blob/main/imgs/DGA.png)
+<p align="center">
+  <img src="imgs/DGA.png" width="90%">
+</p>
+
+## Overview  
+This repository contains the official implementation of **FedLAG**, a layer-wise personalized federated learning framework that adaptively disentangles network layers by resolving **conflicting gradients** during training. The method supports both IID and non-IID federated scenarios, enables communication-efficient personalization, and integrates built-in benchmarking and visualization utilities for reproducible research.
+
+---
 
 # Envinronment Setup
 ```
@@ -67,5 +76,12 @@ If you want to clone all experiments from Wandb and visualize them, consider use
 - ```/path/to/FedLAG/benchmark/benchmark.py``` to create an offline benchmark, which is saved to ```/path/to/FedLAG/benchmark/results_plot/```
 
 # Citation
-```
+```bibtex
+@article{FedLAG2026,
+  title={Towards Layer-wise Personalized Federated Learning: Adaptive Layer Disentanglement via Conflicting Gradients},
+  author={Minh Duong Nguyen and Khoi Do and Khanh Le and Nguyen H. Tran and Zhaohui Yang and Van-Duc Nguyen and Trinh Van Chien},
+  journal={IEEE Transactions on Networking},
+  year={2026},
+  publisher={IEEE}
+}
 ```
